@@ -1,0 +1,18 @@
+.createContainer {
+    width: 500px;
+    margin: 50px auto;
+}
+.navLink {
+    list-style-type: none;
+    padding: 20px;
+    background-color: rgb(10, 31, 71);
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+.navLink a {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

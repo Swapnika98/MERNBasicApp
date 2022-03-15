@@ -1,0 +1,39 @@
+.fetchContainer {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fetchedEmp {
+    box-shadow: 0 0 3px;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 5px;
+}
+.fetchedEmp h2 {
+    margin: 0;
+}
+.fetchedEmp span {
+    font-weight: 400;
+}
+.fetchedEmp ul {
+    display: flex;
+    list-style-type: none;
+}
+.fetchedEmp a,
+.fetchedEmp button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(10, 31, 71);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 10px;
+    font-family: sans-serif;
+}

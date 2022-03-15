@@ -1,0 +1,33 @@
+.homeContainer {
+    width: 500px;
+    margin: 50px auto;
+}
+.homeContainer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.homeContainer h1 {
+    text-align: center;
+}
+.homeContainer li {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.homeContainer a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(10, 31, 71);
+}
+.homeContainer p {
+    text-align: center;
+}

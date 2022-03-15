@@ -1,0 +1,40 @@
+.authForm h3 {
+    color: rgb(10, 31, 71);
+    text-align: center;
+    font-size: 26px;
+}
+.authForm input {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.authForm input:focus {
+    box-shadow: 0 0 5px blue;
+    outline: none;
+}
+.authForm label {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+.authForm input[type="submit"] {
+    border: none;
+    background-color: rgb(107, 151, 231);
+    color: rgb(10, 31, 71);
+}
+.authForm input[type="file"] {
+    padding-top: 7px;
+}
+.errorMessage {
+    color: red;
+}

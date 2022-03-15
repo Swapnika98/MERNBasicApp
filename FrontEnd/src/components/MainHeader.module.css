@@ -1,0 +1,24 @@
+.header {
+    background-color: rgb(107, 151, 231);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    padding: 0 200px;
+}
+.header h3 {
+    margin: 0;
+    flex: 2;
+    font-size: 30px;
+}
+.header nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.header a {
+    text-decoration: none;
+}
+.header * {
+    color: rgb(10, 31, 71);
+}
